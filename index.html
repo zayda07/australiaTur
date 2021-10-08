@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AustraliaTur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54c09a426b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <!--====== HEADER PART START ======--> 
+        <header class="header-area">
+            <nav class="menu">
+                <input type="checkbox" id="check"><label for="check" class="checkbtn"><i class="fas fa-align-justify"></i></label>
+                <ul>
+                    <li><a>AustraliaTur</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#ciudades">Cuidades</a></li>    
+                    <li><a href="#paisajes">Paisajes</a></li>    
+                    <li><a href="#arquitectura">Arquitectura</a></li>    
+                    <li><a href="#comidas">Comidas</a></li>
+                    <li><a href="#fauna">Fauna</a></li>                        
+                </ul>    
+            </nav>  
+        </header>
+        <!--====== HEADER PART END ======-->
+
+        <!--====== HOME PART START ======-->
+        <div class="home" id="home">
+                <h1>Australia</h1>
+        </div>
+        <!--====== HOME PART END ======--> 
+
+        <!--====== COUNTRIES PART START======-->
+        <section class="countries-area" id="ciudades">
+            
+            <div class="section-title">
+                <div class="line"></div>
+                <h3>Ciudades</h3>
+            </div>
+            <div class="slider">
+               <!-- <span class="span">&#139</span>
+                <span class="span">&#155</span>--> 
+                    
+                   <!-- slider item -->
+                <div class="card card--visible" name="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2019/06/03/19/47/australia-4249691_1280.jpg" alt="sidney-image">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Sidney
+                        </div>
+                        <p>Es una de las ciudades más importantes del mundo.
+                            Existe una parte del territorio que esta ocupada por el parque botánico Real. 
+                            Podemos encontrar maravillosas contrucciones entre ellas esta el Opera House.
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal">Leer mas..</a>
+
+                                <div id="openModal" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2019/06/03/19/47/australia-4249691_1280.jpg" alt="sidney-image">
+                                        </div>
+                                        <h2>Sidney</h2>
+                                        <p>Es una de las ciudades más importantes del mundo.
+                                            Existe una parte del territorio que esta ocupada por el parque botánico Real. 
+                                            Podemos encontrar maravillosas contrucciones entre ellas esta el Opera House.
+                                        </p>
+                                       </br>
+                                        <p>Algunas de las playas más famosas para visitar son Bonday y Manly, siendo el primero 
+                                            el preferido para los surfistas. También encontramos las Montañas azules con sus bosques de eucalipto .
+                                            El puerto de Darling es muy popular por sus restaurantes, bares, tiendas y parques.
+                                        </p>
+                                        </br>
+                                        <p>La Galería de arte de Nueva Gales del Sur es la más antigua de la ciudad, cuenta con colecciones de los siglos XVIII, 
+                                            XIX y XX del arte australiano.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <!-- /slider item -->
+                <div class="card" name="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/12/02/21/melbourne-1973533_1280.jpg" alt="melbourne-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Melbourne
+                        </div>
+                        <p>Ha sido reconocida como capital del deporte. Aquí encontramos una mezcla entre 
+                            la arquitetura victoriana y contemporánea. Desde los miradores del Realto Towers se puede apreciar el panorama 
+                            de la ciudad.
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal1">Leer mas..</a>
+
+                                <div id="openModal1" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2017/01/12/02/21/melbourne-1973533_1280.jpg" alt="melbourne-image">
+                                        </div>
+                                        <h2>Melbourne</h2>
+                                        <p>Ha sido reconocida como capital del deporte. Aquí encontramos una mezcla entre 
+                                            la arquitetura victoriana y contemporánea. Desde los miradores del Realto Towers se puede apreciar el panorama 
+                                            de la ciudad.
+                                        </p>
+                                       </br>
+                                        <p>El Palacio Real de Exposiciones de Melbourne fue declarado como patrimonio de la humanidad por la UNESCO.
+                                        </p>
+                                        </br>
+                                        <p>La catedral de San pablo es un hermoso sitio religioso con un estilo gótico. El Centro de las
+                                            Artes e victoria cuenta con música clásica y contemporánea, ópera, teato y artes visuales.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" name="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/08/09/54/southbank-brisbane-1723365_1280.jpg" alt="brisbane-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Brisbane
+                        </div>
+                        <p>Al norte de la ciudad encontramos la Isla Fraser, la cual es la mayor isla de arena del mundo y se encuentra
+                            habitada por dingos que son perros salvajes.
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal2">Leer mas..</a>
+
+                                <div id="openModal2" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2016/10/08/09/54/southbank-brisbane-1723365_1280.jpg" alt="brisbane-image">
+                                        </div>
+                                        <h2>Brisbane</h2>
+                                        <p>Al norte de la ciudad encontramos la Isla Fraser, la cual es la mayor isla de arena del mundo y se encuentra
+                                            habitada por dingos que son perros salvajes.
+                                        </p>
+                                       </br>
+                                        <p>The Queen Street Mall es una de las zonas mas importante para hacer compras ya que cuenta
+                                            con tiendas de moda, perfumería, joyería, restaurantes, bares y cafés.
+                                        </p>
+                                        </br>
+                                        <p>La calle Brunswick cuenta con tiendas de antigüedades y objectos de sugunda mano ubicada junto
+                                            al chinatown Mall.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                
+                </div>
+              
+                <div class="card__actions">
+                    <button class="button" id="card__button--prev">&#139</button>
+                    <button class="button" id="card__button--next">&#155</button>    
+                </div>
+            </div>    
+        </section>    
+        <!--====== COUNTRIES PART END ====== --> 
+
+        <!--====== SCENERIES PART START======-->
+        <section class="sceneries-area" id="paisajes">
+            
+            <div class="section-title">
+                <div class="line"></div>
+                <h3>Paisajes</h3>
+            </div>
+            <div class="slider">
+                <span class="span">&#139</span>
+                <span class="span">&#155</span>         
+                   <!-- slider item -->
+                <div class="card card--visible" name="card1">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/12/07/27/great-barrier-reef-527987_640.jpg" alt="great-barrier-reef-image">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Gran barrera de coral
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal3">Leer mas..</a>
+
+                                <div id="openModal3" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2014/11/12/07/27/great-barrier-reef-527987_640.jpg" alt="great-barrier-reef-image">
+                                        </div>
+                                        <h2>Gran barrera de coral</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <!-- /slider item -->
+                <div class="card" name="card1">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2021/05/09/09/34/kakadu-national-park-6240365_640.jpg" alt="kakadu-national-park-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Parque Nacional de Kakadu
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal4">Leer mas..</a>
+
+                                <div id="openModal4" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2021/05/09/09/34/kakadu-national-park-6240365_640.jpg" alt="kakadu-national-park-image">
+                                        </div>
+                                        <h2>Parque Nacional de Kakadu</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" name="card1">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2020/05/10/11/27/whitehaven-beach-5153639_640.jpg" alt="whitehaven-beach-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Whitehaven Beach
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal5">Leer mas..</a>
+
+                                <div id="openModal5" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2020/05/10/11/27/whitehaven-beach-5153639_640.jpg" alt="whitehaven-beach-image">
+                                        </div>
+                                        <h2>Whitehaven Beach</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__actions">
+                    <button class="button" id="card1__button--prev">&#139</button>
+                    <button class="button" id="card1__button--next">&#155</button>    
+                </div>
+            </div>
+        </section>
+        <!--====== SCENERIES PART END ======--> 
+
+        <!--====== ARCHITECTURE PART START======-->
+        <section class="architecture-area" id="arquitectura">         
+            <div class="section-title">
+                <div class="line"></div>
+                <h3>Arquitectura</h3>
+            </div>
+            <div class="slider">
+                <span class="span">&#139</span>
+                <span class="span">&#155</span>         
+                   <!-- slider item -->
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2021/02/13/01/36/flinders-street-station-6010073_640.jpg" alt="flinders-street-station-image">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            La estación de Flinders Street
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal6">Leer mas..</a>
+
+                                <div id="openModal6" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2021/02/13/01/36/flinders-street-station-6010073_640.jpg" alt="flinders-street-station-image">
+                                        </div>
+                                        <h2>La estación de Flinders Street</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <!-- /slider item -->
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2019/12/25/17/18/eureka-tower-4718951_640.jpg" alt="eureka-tower-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Eureka Tower
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal7">Leer mas..</a>
+
+                                <div id="openModal7" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2019/12/25/17/18/eureka-tower-4718951_640.jpg" alt="eureka-tower-image">
+                                        </div>
+                                        <h2>Eureka-Tower</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2014/03/16/07/39/war-memorial-288327_640.jpg" alt="war-memorial-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Memorial de guerra Australiano
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal8">Leer mas..</a>
+
+                                <div id="openModal8" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2014/03/16/07/39/war-memorial-288327_640.jpg" alt="war-memorial-image">
+                                        </div>
+                                        <h2>Memorial de guerra Australiano</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <!--====== ARCHITECTURE PART END ======--> 
+
+        <!--====== FOODS PART START======-->
+        <section class="foods-area" id="comidas">
+            
+            <div class="section-title">
+                <div class="line"></div>
+                <h3>Comidas</h3>
+            </div>
+            <div class="slider">
+                <span class="span">&#139</span>
+                <span class="span">&#155</span>         
+                   <!-- slider item -->
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2020/11/05/19/38/kiwis-5716066_640.jpg" alt="kiwis-image">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Frutas
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal9">Leer mas..</a>
+
+                                <div id="openModal9" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2020/11/05/19/38/kiwis-5716066_640.jpg" alt="kiwis-image">
+                                        </div>
+                                        <h2>Frutas</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <!-- /slider item -->
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_640.jpg" alt="meat-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Carnes
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal10">Leer mas..</a>
+
+                                <div id="openModal10" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_640.jpg" alt="meat-image">
+                                        </div>
+                                        <h2>Carnes</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2015/12/08/00/24/grilling-1081675_640.jpg" alt="grilling-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            BBQ
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal11">Leer mas..</a>
+
+                                <div id="openModal11" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2015/12/08/00/24/grilling-1081675_640.jpg" alt="grilling-image">
+                                        </div>
+                                        <h2>BBQ</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!--====== FOODS PART END ======--> 
+
+        <!--====== WILDLIFE PART START======-->
+        <section class="wildlife-area" id="fauna">
+            
+            <div class="section-title">
+                <div class="line"></div>
+                <h3>Fauna</h3>
+            </div>
+            <div class="slider">
+                <span class="span">&#139</span>
+                <span class="span">&#155</span>         
+                   <!-- slider item -->
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/07/22/35/animals-2608662_640.jpg" alt="koala-image">
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            Koala
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal12">Leer mas..</a>
+
+                                <div id="openModal12" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2017/08/07/22/35/animals-2608662_640.jpg" alt="koala-image">
+                                        </div>
+                                        <h2>Koala</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <!-- /slider item -->
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2019/05/25/12/28/wallabies-4228258_640.jpg" alt="Kangaroo-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Canguro
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal13">Leer mas..</a>
+
+                                <div id="openModal13" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2019/05/25/12/28/wallabies-4228258_640.jpg" alt="Kangaroo-image">
+                                        </div>
+                                        <h2>Canguro</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2017/06/02/06/25/tasmanian-devil-2365434_640.jpg" alt="tasmanian-devil-image">
+                    </div>
+                    <div class="content"> 
+                        <div class="title">
+                            Demonio de Tasmania
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                            exercitationem nihil pariatur rem odit. 
+                            Similique nesciunt quod earum necessitatibus. 
+                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                        </p>
+                        <div class="btn">
+                            
+                            <a href="#openModal14">Leer mas..</a>
+
+                                <div id="openModal14" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <div class="img">
+                                            <img src="https://cdn.pixabay.com/photo/2017/06/02/06/25/tasmanian-devil-2365434_640.jpg" alt="tasmanian-devil-image">
+                                        </div>
+                                        <h2>Demonio de Tasmania</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                       </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                        </br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui, 
+                                            exercitationem nihil pariatur rem odit. 
+                                            Similique nesciunt quod earum necessitatibus. 
+                                            Maxime adipisci qui omnis in aliquid, recusandae autem nam at!
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!--====== WILDLIFE PART END ======--> 
+        
+        <!--====== FOOTER PART START ======--> 
+        <footer class="footer">
+            <p>&copy 2021| Todos los derechos reservados </p>
+        </footer>
+        <!--====== FOOTER PART END ======--> 
+    </div>        
+    <script src="main.js"></script>
+</body>
+</html>
